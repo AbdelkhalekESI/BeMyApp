@@ -71,7 +71,7 @@ app.post("/newEvent " , function (req,res) {
     name : req.query.name ,
         Benevols  : 0,
         MaxBenevols : req.query.benevols ,
-        Lieu : req.query.lieu
+        Lieu : req.query.lieu,
         ListeBesoins : ["Item1" , "Item2"],
         EventsPictures : ["URL1" , "URL2"],
         MainPicture : "URL"
